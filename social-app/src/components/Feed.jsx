@@ -1,9 +1,12 @@
 import "../App.css";
+import Share from "./Share";
 
 export default function Feed() {
   return (
     <div className="feed">
-      Feed
+      <div className="feedWrapper">
+        <Share/>
+      </div>
     </div>
   )
 }
