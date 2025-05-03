@@ -7,12 +7,12 @@ import "../App.css";
 export const Home = () => {
   return (
     <>
-      <TopBar />
+       <TopBar />
       <div className="homeContainer">
         <SideBar />
         <Feed />
         <RightBar />
-      </div>
+      </div> 
     </>
   );
 };

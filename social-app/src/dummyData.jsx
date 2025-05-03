@@ -24,7 +24,7 @@ import person10 from './assets/persons/person10.jpeg';
 export const Users = [
   { id: 1,
      profilePicture: person1,
-      username: "Safak Kocaoglu" },
+      username: "Sofiya Kocaoglu" },
   { id: 2,
      profilePicture: person2,
       username: "Janell Shrum" },
@@ -51,7 +51,7 @@ export const Users = [
      username: "Gary Duty" },
   { id: 10, 
     profilePicture: person10, 
-    username: "Safak Kocaoglu" },
+    username: "Glory Lal" },
 ];
 
   export const Posts = [
