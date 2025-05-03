@@ -19,6 +19,7 @@ body {
     align-items:center;
     position:sticky;
     top:0;
+    z-index:999;
 
   }
   .topLeft{
@@ -113,6 +114,8 @@ body {
     height:calc(100vh - 50px);
     /* background-color: ; */
     overflow-y: scroll;
+    position:sticky;
+    top:50px;
 }
 
 ::-webkit-scrollbar{
@@ -237,6 +240,8 @@ body {
    font-weight:500;
    margin-right: 20px;
    cursor: pointer;
+   background-color: green;
+   color:white;
 }
 /* post */
 .post{
